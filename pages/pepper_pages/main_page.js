@@ -1,4 +1,5 @@
 exports.MainPage = class MainPage {
+  //page elements
   constructor(page) {
     this.page = page;
     this.avatar = "img[alt='Awatar użytkownika Joao2115']";

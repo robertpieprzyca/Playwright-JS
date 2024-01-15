@@ -1,4 +1,5 @@
 exports.LoginPage = class LoginPage {
+  //page elements
   constructor(page) {
     this.page = page;
     this.login_button =
