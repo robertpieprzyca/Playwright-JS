@@ -10,7 +10,7 @@ exports.LoginPage = class LoginPage {
     this.user_details = ".flex.flex--1.boxAlign-jc--all-c";
   }
 
-  //login page
+  // login page
   async goto_login_page() {
     await this.page.goto("https://www.pepper.pl/dlaciebie");
   }
